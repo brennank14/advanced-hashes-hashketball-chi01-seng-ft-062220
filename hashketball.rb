@@ -133,9 +133,8 @@ def num_points_scored(player)
     if value == :players
       binding.pry
       value.each do |person|
-        person.each do |k2, v2|
-          if v2 == player
-            k2
+        if person[:player_name] == player
+          player[:points]
           end
         end
       end
