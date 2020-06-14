@@ -202,7 +202,7 @@ def big_shoe_rebounds
         person[:shoe] = max
         person[:rebounds] = max_rebounds
       end
-    end 
+    end
   end
   return max_rebounds
 end
