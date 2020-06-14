@@ -162,8 +162,8 @@ end
 
 def team_names
   team_array = []
-  game_hash.each do |key|
-    binding.pry
+  game_hash.each do |key, value|
+    team_array.push(value[:team_name])
   end
   #return team_array
 end
