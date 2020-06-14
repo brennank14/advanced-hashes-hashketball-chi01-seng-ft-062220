@@ -130,7 +130,8 @@ end
 
 def num_points_scored(player)
   game_hash.each do |key, value|
-    if value == :players #in the players array
+    if value == :players 
+      binding.pry
       value.each do |person|
         person.each do |k2, v2|
           if player == v2
