@@ -203,7 +203,6 @@ def big_shoe_rebounds
         max_rebounds = person[:rebounds]
       end
     end
-    binding.pry
   end
   return max_rebounds
 end
