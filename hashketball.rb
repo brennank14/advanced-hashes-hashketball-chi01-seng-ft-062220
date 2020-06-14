@@ -161,7 +161,9 @@ end
 
 
 def team_names
-
+  team_list = []
+  game_hash.each do |key|
+    team_list.push(key)
 end
 
 
