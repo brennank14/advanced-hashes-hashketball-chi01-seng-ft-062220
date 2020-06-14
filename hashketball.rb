@@ -165,7 +165,7 @@ def team_names
   game_hash.each do |key, value|
     names.push(key[:team_name])
   end
-  return team_list
+  return names
 end
 
 
