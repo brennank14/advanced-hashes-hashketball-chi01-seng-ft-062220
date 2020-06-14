@@ -143,9 +143,6 @@ end
 def shoe_size(player)
   game_hash.each do |key, value|
     key[:colors]
-
-      end
-    end
   end
 end
 
