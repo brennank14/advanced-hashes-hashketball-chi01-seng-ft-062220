@@ -162,7 +162,7 @@ end
 
 def team_names
   team_list = []
-  game_hash.each do |key|
+  game_hash.each do |key, value|
     binding.pry
   end
   #return team_list
