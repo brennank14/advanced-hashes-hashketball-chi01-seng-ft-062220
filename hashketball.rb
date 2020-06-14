@@ -129,12 +129,12 @@ def game_hash
 end
 
 def num_points_scored(player)
-  game_hash.each do |team, info|
-    if info == :players
-      info.each do |(k, v ) i|
-        if player == v(:player_name)
-          v(:points)
-        end
+  game_hash.each do |key, value|
+    if value == :players #in the players array
+      value.each do |person|
+        person.each do |k2, v2|
+        if person == v2
+          [:points]
       end
     end  
   end
