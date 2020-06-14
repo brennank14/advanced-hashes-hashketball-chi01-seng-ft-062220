@@ -133,7 +133,7 @@ def num_points_scored(player)
     if value == :players
       value.each do |person|
         if person[:player_name] == player
-          return person[:points]
+          person[:points]
         end
       end
     end
