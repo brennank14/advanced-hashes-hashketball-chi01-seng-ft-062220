@@ -134,7 +134,7 @@ def num_points_scored(player)
       value.each do |person|
         person.each do |k2, v2|
         if player == v2
-          [:points]
+          k2
       end
     end
   end
