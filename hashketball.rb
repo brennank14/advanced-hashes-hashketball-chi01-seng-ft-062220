@@ -163,8 +163,7 @@ end
 def team_names
   team_list = []
   game_hash.each do |key|
-    team_list.push(key[:team_name])
-    binding.pry 
+    binding.pry
   end
   #return team_list
 end
