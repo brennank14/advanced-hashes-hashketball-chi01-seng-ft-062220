@@ -200,7 +200,7 @@ def big_shoe_rebounds
     value[:players].each do |person|
       if person[:shoe] > max
         max = person[:shoe]
-        person[:rebounds] = max_rebounds
+        max_rebounds = person[:rebounds]
       end
     end
     binding.pry
