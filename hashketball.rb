@@ -130,7 +130,7 @@ end
 
 def num_points_scored(player)
   game_hash.each do |key, value|
-    if value == :players 
+    if value == :players
       binding.pry
       value.each do |person|
         person.each do |k2, v2|
@@ -141,7 +141,7 @@ def num_points_scored(player)
       end
     end
   end
-end 
+end
 
 def shoe_size(number)
 
