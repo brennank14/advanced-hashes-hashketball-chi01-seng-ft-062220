@@ -169,7 +169,15 @@ def team_names
 end
 
 
-def player_numbers(string)
+def player_numbers(team)
+  jersey_array = []
+  game_hash.each do |key, value|
+    is value[:team_name] == team
+    jersey_array.push(value[:players][:number])
+      end
+    end
+  end
+  return jersey_array
 end
 
 
