@@ -135,12 +135,12 @@ def num_points_scored(player)
       value.each do |person|
         if person[:player_name] == player
           player[:points]
-          end
         end
       end
     end
   end
 end
+
 
 def shoe_size(number)
 
