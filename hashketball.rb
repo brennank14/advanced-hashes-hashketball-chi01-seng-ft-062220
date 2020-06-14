@@ -136,7 +136,7 @@ def num_points_scored(player)
         if person == v2
           [:points]
       end
-    end  
+    end
   end
 end
 
