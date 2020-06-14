@@ -163,9 +163,11 @@ end
 def team_names
   team_list = []
   game_hash.each do |key, value|
-    binding.pry
+    if value == :team_name
+      team_list.push(value)
+    end
   end
-  #return team_list
+  return team_list
 end
 
 
