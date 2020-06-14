@@ -164,13 +164,13 @@ def team_names
   team_list = []
   game_hash.each do |key|
     team_list.push(key[:team_name])
+    binding.pry 
   end
-  return team_list
+  #return team_list
 end
 
 
 def player_numbers(string)
-
 end
 
 
@@ -179,5 +179,4 @@ end
 
 
 def big_shoe_rebounds
-
 end
